@@ -1,0 +1,38 @@
+{
+  "name": "GehredsHomePictureSorter",
+  "version": "0.0.1",
+  "description": "A utility program to sort all the damn pictures",
+  "main": "index.js",
+  "dependencies": {
+    "exif-parser": "^0.1.7",
+    "fs-extra": "^0.16.3",
+    "glob": "^4.4.1",
+    "pub-sub": "^0.1.13",
+    "q": "^1.2.0",
+    "sugar-glob": "^1.1.1",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "jscs": "^1.11.3",
+    "mocha": "^2.1.0",
+    "proxyquire": "^1.3.2",
+    "sinon": "^1.12.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jpg",
+    "utilities",
+    "picture",
+    "sorter"
+  ],
+  "author": "Robert C Gehred",
+  "license": "ISC"
+}
